@@ -1,1 +1,150 @@
-Hello World
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HEMPLUS</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="viewport" content="initial-scale=1, user-scalable=0, minimal-ui">
+	<link rel="stylesheet" href="/skin/css/style.css">
+	<link rel="stylesheet" href="/skin/css/swiper.min.css">
+	<link rel="stylesheet" href="/skin/css/video.css">
+	<script type="text/javascript" src="/skin/js/jquery.js"></script>
+	<script type="text/javascript" src="/skin/js/script.js"></script>
+	<script type="text/javascript" src="/skin/js/video.js"></script>
+</head>
+<body>
+<div id="index_left">
+	<div class="logo">
+		<img src="/skin/images/logo.png" alt="">
+		<p>Elevate your mood.™</p>
+	</div>
+	<div class="nav">
+		<li><a href='/'>HOME</a></li>
+		
+          <li><a href='/a/shouyebanner/list_9_1.html'>ABOUT US</a></li>
+        
+          <li><a href='/a/shouyesizhangtu/list_10_1.html'>STAR PRODUCTS</a></li>
+        
+          <li><a href='/a/shouyesanzhangtu/list_11_1.html'>ALL PRODUCTS</a></li>
+        
+          <li><a href='/a/SHOP/list_1_1.html'>SHOP ONLINE</a></li>
+        
+          <li><a href='/a/MONDO/contact.html'>CONTACT US</a></li>
+        
+          <li><a href='/a/MONDO_CBD/list_3_1.html'>SALES COUNTER</a></li>
+        
+          <li><a href='/a/TESTIMONIALS/vipmember.html'>JOIN US</a></li>
+        
+	</div>
+</div>
+<!--手机端导航开始-->
+<div class="sp_header">
+  	<div class="sp_logo">
+  		<a href="/"><img src="/skin/images/logo.png" alt=""></a>
+  	</div>
+  	<div class="sp_nav">
+  		<span></span>
+  		<span></span>
+  		<span></span>
+  	</div>
+</div>
+<div class="sjj_nav">
+  	<ul>
+  		<li><a href='/'>HOME</a></li>
+		
+          <li><a href='/a/shouyebanner/list_9_1.html'>ABOUT US</a></li>
+        
+          <li><a href='/a/shouyesizhangtu/list_10_1.html'>STAR PRODUCTS</a></li>
+        
+          <li><a href='/a/shouyesanzhangtu/list_11_1.html'>ALL PRODUCTS</a></li>
+        
+          <li><a href='/a/SHOP/list_1_1.html'>SHOP ONLINE</a></li>
+        
+          <li><a href='/a/MONDO/contact.html'>CONTACT US</a></li>
+        
+          <li><a href='/a/MONDO_CBD/list_3_1.html'>SALES COUNTER</a></li>
+        
+          <li><a href='/a/TESTIMONIALS/vipmember.html'>JOIN US</a></li>
+        
+	</ul>
+</div>
+<div id="index_right">
+	<div class="index_r">
+		<div class="container">
+			<video width="95%">
+				<source src="/skin/images/homepage.mp4" type="video/mp4">
+				<source src="/skin/images/homepage.webm" type="video/webm">
+			</video>
+		</div>
+		<div class="swiper-container">
+	        <div class="swiper-wrapper">
+	        	<div class="swiper-slide">
+	            	<img src="/skin/images/1-1Z506204425351.jpg" alt="">
+	            </div>
+<div class="swiper-slide">
+	            	<img src="/skin/images/1-1Z50620501A25.jpg" alt="">
+	            </div>
+
+	        </div>
+	    </div>
+	    <div class="four_img">
+	    	<a href="#"><img src="/skin/images/1-1Z506214002262.jpg" alt=""></a>
+<a href="#"><img src="/skin/images/1-1Z506214030211.jpg" alt=""></a>
+<a href="#"><img src="/skin/images/1-1Z506214056423.jpg" alt=""></a>
+<a href="#"><img src="/skin/images/1-1Z50621411R33.jpg" alt=""></a>
+
+	    </div>
+	    <div class="three_img">
+	    	<p>FIND US ON SOCIAL MEDIA</p>
+	    	<a href="#"><img src="/skin/images/1-1Z506213413144.jpg" alt=""></a>
+<a href="#"><img src="/skin/images/1-1Z50622345O53.jpg" alt=""></a>
+<a href="#"><img src="/skin/images/1-1Z506223519400.jpg" alt=""></a>
+
+	    	<div class="clear"></div>
+	    </div>
+	    <div class="massage">
+	    	<p class="p_a">SUBSCRIBE</p>
+	    	<p>Sign up with your email address to receive news and updates.</p>
+	    	<div class="email_box">
+	    		<form action="/plus/diy.php"  enctype="multipart/form-data" method="post">
+	    		 	<input type="hidden" name="action" value="post" />
+                    <input type="hidden" name="diyid" value="1" />
+                    <input type="hidden" name="do" value="2" />
+	    			<input type="text" placeholder="Email Address" class="input_text fl" name='con_email' id='con_email'>
+	    			<input type="hidden" name="dede_fields" value="con_email" />
+                    <input type="hidden" name="dede_fieldshash" value="4727798896211924ec75c4d97187c3da" />
+	    			<input type="submit" value="Sign Up" class="input_btn fr">
+	    			<div class="clear"></div>
+	    		</form>
+	    	</div>
+	    	<p style="font-size: 12px;">We respect your privacy.</p>
+	    </div>
+	    <div class="footer">We only sell our CBD products online. Our THC products can only be purchased from a state licensed retailer. </div>
+	</div>
+</div>
+</body>
+<script type='text/javascript'>
+$(document).ready(function() {
+	$('video').videoPlayer({
+		'playerWidth' : 0.95,
+		'videoClass' : 'video'	
+	});
+});
+</script>
+<!-- Swiper JS -->
+<script src="/skin/js/swiper.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30,
+        effect: 'fade',
+        autoplay: 2500
+    });
+</script>
+</html>
