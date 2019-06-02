@@ -10,42 +10,43 @@
     <link rel="stylesheet" href="/skin/css/style.css">
     <link rel="stylesheet" href="/skin/css/swiper.min.css">
     <link rel="stylesheet" href="/skin/css/video.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <script type="text/javascript" src="/skin/js/jquery.js"></script>
     <script type="text/javascript" src="/skin/js/script.js"></script>
     <script type="text/javascript" src="/skin/js/video.js"></script>
+    <script type="text/javascript" src="/skin/js/router.js"></script>
+    <script type="text/javascript" src="/skin/js/lang_en.js"></script>
+    <script type="text/javascript" src="/skin/js/lang_zh.js"></script>
+    <script type="text/javascript" src="/skin/js/i18n.js"></script>
 </head>
 
 <body>
     <div id="index_left">
         <div class="logo">
             <img src="/skin/images/logo.png" alt="">
+            <button class="lang" data-i18n="lang"></button>
             <p>Elevate your mood.™</p>
         </div>
         <div class="nav">
-            <li><a href='/'>HOME</a></li>
+            <li><a href="#home" data-i18n="nav.home"></a></li>
 
-            <li><a href='/subpage/all_products.html'>所有产品</a></li>
+            <li><a href="#brand" data-i18n="nav.brand"></a></li>
 
-            <li class="sub"><a href='/subpage/all_products.html#1'>产品1</a></li>
-            <li class="sub"><a href='/subpage/all_products.html#2'>产品2</a></li>
-            <li class="sub"><a href='/subpage/all_products.html#3'>产品3</a></li>
+            <li><a href="#shop" data-i18n="nav.shop"></a></li>
+            <li class="sub"><a href="#product?id=1" data-i18n="nav.product_1"></a></li>
+            <li class="sub"><a href="#product?id=2" data-i18n="nav.product_2"></a></li>
+            <li class="sub"><a href="#product?id=3" data-i18n="nav.product_3"></a></li>
 
-            <li><a href='/subpage/about_us.html'>ABOUT US</a></li>
+            <li><a href="#about" data-i18n="nav.about"></a></li>
 
-            <li class="sub"><a href='/subpage/about_us.html#brand'>品牌介绍</a></li>
-
-            <li class="sub"><a href='/subpage/about_us.html#consult'>相关咨询</a></li>
-
-            <li class="sub"><a href='/subpage/about_us.html#offline'>线下专柜</a></li>
-
-            <li class="sub"><a href='/subpage/about_us.html#contact'>联系我们</a></li>
-
+            <li><a href="#contact" data-i18n="nav.contact"></a></li>
         </div>
     </div>
     <!--手机端导航开始-->
     <div class="sp_header">
         <div class="sp_logo">
             <a href="/"><img src="/skin/images/logo.png" alt=""></a>
+            <button class="lang" data-i18n="lang"></button>
         </div>
         <div class="sp_nav">
             <span></span>
@@ -54,103 +55,115 @@
         </div>
     </div>
     <div class="sjj_nav">
-        <ul>
-            <li><a href='/'>HOME</a></li>
+        <ul class="nav">
+            <li><a href="#home" data-i18n="nav.home"></a></li>
 
-            <li><a href='/subpage/all_products.html'>所有产品</a></li>
+            <li><a href="#brand" data-i18n="nav.brand"></a></li>
 
-            <li class="sub"><a href='/subpage/all_products.html#1'>产品1</a></li>
-            <li class="sub"><a href='/subpage/all_products.html#2'>产品2</a></li>
-            <li class="sub"><a href='/subpage/all_products.html#3'>产品3</a></li>
+            <li><a href="#shop" data-i18n="nav.shop"></a></li>
+            <li class="sub"><a href="#product?id=1" data-i18n="nav.product_1"></a></li>
+            <li class="sub"><a href="#product?id=2" data-i18n="nav.product_2"></a></li>
+            <li class="sub"><a href="#product?id=3" data-i18n="nav.product_3"></a></li>
 
-            <li><a href='/subpage/about_us.html'>ABOUT US</a></li>
+            <li><a href="#about" data-i18n="nav.about"></a></li>
 
-            <li class="sub"><a href='/subpage/about_us.html#brand'>品牌介绍</a></li>
-
-            <li class="sub"><a href='/subpage/about_us.html#consult'>相关咨询</a></li>
-
-            <li class="sub"><a href='/subpage/about_us.html#offline'>线下专柜</a></li>
-
-            <li class="sub"><a href='/subpage/about_us.html#contact'>联系我们</a></li>
-
+            <li><a href="#contact" data-i18n="nav.contact"></a></li>
         </ul>
     </div>
 
-    <div id="index_right">
-        <div class="index_r">
-            <div class="container">
-                <video width="95%">
-                    <source src="/skin/images/homepage.mp4" type="video/mp4">
-                    <source src="/skin/images/homepage.webm" type="video/webm">
-                </video>
-            </div>
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="/skin/images/1-1Z506204425351.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="/skin/images/1-1Z50620501A25.jpg" alt="">
-                    </div>
-
-                </div>
-            </div>
-            <div class="four_img">
-                <a href="#"><img src="/skin/images/1-1Z506214002262.jpg" alt=""></a>
-                <a href="#"><img src="/skin/images/1-1Z506214030211.jpg" alt=""></a>
-                <a href="#"><img src="/skin/images/1-1Z506214056423.jpg" alt=""></a>
-                <a href="#"><img src="/skin/images/1-1Z50621411R33.jpg" alt=""></a>
-
-            </div>
-            <div class="three_img">
-                <p>FIND US ON SOCIAL MEDIA</p>
-                <a href="#"><img src="/skin/images/1-1Z506213413144.jpg" alt=""></a>
-                <a href="#"><img src="/skin/images/1-1Z50622345O53.jpg" alt=""></a>
-                <a href="#"><img src="/skin/images/1-1Z506223519400.jpg" alt=""></a>
-
-                <div class="clear"></div>
-            </div>
-            <div class="massage">
-                <p class="p_a">SUBSCRIBE</p>
-                <p>Sign up with your email address to receive news and updates.</p>
-                <div class="email_box">
-                    <form action="/plus/diy.php" enctype="multipart/form-data" method="post">
-                        <input type="hidden" name="action" value="post" />
-                        <input type="hidden" name="diyid" value="1" />
-                        <input type="hidden" name="do" value="2" />
-                        <input type="text" placeholder="Email Address" class="input_text fl" name='con_email' id='con_email'>
-                        <input type="hidden" name="dede_fields" value="con_email" />
-                        <input type="hidden" name="dede_fieldshash" value="4727798896211924ec75c4d97187c3da" />
-                        <input type="submit" value="Sign Up" class="input_btn fr">
-                        <div class="clear"></div>
-                    </form>
-                </div>
-                <p style="font-size: 12px;">We respect your privacy.</p>
-            </div>
-            <div class="footer">We only sell our CBD products online. Our THC products can only be purchased from a state licensed retailer. </div>
-        </div>
-    </div>
-</body>
-<script type='text/javascript'>
-    $(document).ready(function() {
-        $('video').videoPlayer({
-            'playerWidth': 0.95,
-            'videoClass': 'video'
-        });
-    });
-</script>
+    <div id="index_right"></div>
+</body> 
 <!-- Swiper JS -->
 <script src="/skin/js/swiper.min.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?ak=xu4Iiv914R6bGopVaqGPos5U4PHPzeoc&v=2.0&services=false"></script>  
 <!-- Initialize Swiper -->
 <script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        paginationClickable: '.swiper-pagination',
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        spaceBetween: 30,
-        effect: 'fade',
-        autoplay: 2500
+    $('.sjj_nav').click(function() {
+        $(this).toggleClass('nav_show');
+    })
+
+    var options = {
+        lng: 'zh', // evtl. use language-detector https://github.com/i18next/i18next-browser-languageDetector
+        resources: { // evtl. load via xhr https://github.com/i18next/i18next-xhr-backend
+          en: {
+            translation: window.LANG_EN
+          },
+          zh: {
+            translation: window.LANG_ZH
+          }
+        }
+    };
+    i18next.init(options, function(err, t) {
+        jqueryI18next.init(i18next, $);
+        $('.nav').localize();
+        $('.lang').localize();
+        $('#brand').localize();
+        $('#about').localize();
+        $('#contact').localize();
+        $('#shop').localize();
+        $('#product').localize();
+    });
+    window.lang = 'zh';
+
+    $('.lang').click(function() {
+        if (window.lang === 'zh') {
+            options.lng = 'en';
+            window.lang = 'en';
+            i18next.init(options, function(err, t) {
+                jqueryI18next.init(i18next, $);
+                $('.nav').localize();
+                $('.lang').localize();
+                $('#brand').localize();
+                $('#about').localize();
+                $('#contact').localize();
+                $('#shop').localize();
+                $('#product').localize();
+            });
+        } else {
+            options.lng = 'zh';
+            window.lang = 'zh';
+            i18next.init(options, function(err, t) {
+                jqueryI18next.init(i18next, $);
+                $('.nav').localize();
+                $('.lang').localize();
+                $('#brand').localize();
+                $('#about').localize();
+                $('#contact').localize();
+                $('#shop').localize();
+                $('#product').localize();
+            });
+        }
+    })
+
+    vipspa.start({
+        view: '#index_right',
+        router: {
+            'home': {
+                templateUrl: 'views/home.html',
+                controller: 'skin/js/blank.js'
+            },
+            'brand': {
+                templateUrl: 'views/brand.html',
+                controller: 'skin/js/blank.js'
+            },
+            'shop': {
+                templateUrl: 'views/shop.html',
+                controller: 'skin/js/blank.js'
+            },
+            'product': {
+                templateUrl: 'views/product.html',
+                controller: 'skin/js/blank.js'
+            },
+            'about': {
+                templateUrl: 'views/about.html',
+                controller: 'skin/js/blank.js'
+            },
+            'contact': {
+                templateUrl: 'views/contact.html',
+                controller: 'skin/js/blank.js'
+            },
+            'defaults': 'home' //默认路由
+        }
     });
 </script>
 

@@ -40,7 +40,7 @@ input {
 	z-index: 100000 !important;
 }
 /*公共样式开始*/
-body,html{ height:100%; overflow:hidden;}
+body,html{ height:100%;}
 body {
 	margin: 0 auto;
 	color: #000;
@@ -69,16 +69,16 @@ body {
 	display: none;
 }
 #index_left{
-	float:left;
 	width:240px;
 	background:#fff;
 	height:100%;
+	position: fixed;
+	left: 0;
+	top: 0;
 }
 #index_right{
-	overflow:auto;
 	height:100%;
-	padding: 65px;
-	text-align: center;
+	padding: 65px 0;
 }
 #index_left .logo{
 	width: 75%;
@@ -118,6 +118,7 @@ body {
 }
 .container video{
 	width: 100% !important;
+	margin-top: 20px;
 }
 .swiper-container {
     width: 100%;
@@ -151,7 +152,6 @@ body {
 	font-size: 1.2rem;
 	color: #666;
 	padding:55px 0px;
-	border-bottom:1px solid #e7e7e7;
 	border-top:1px solid #e7e7e7;
 }
 .three_img img {
@@ -200,7 +200,21 @@ body {
 .footer{
 	font-size: 16px;
 	color: #848484;
-	padding:85px 0px;
+	padding: 25px 0px;
+	margin-bottom: 50px;
+	border-top: 1px solid #e7e7e7;
+}
+@media screen and (min-width:1025px) {
+	#index_right{
+		width: 800px;
+		margin-left: 240px;
+	}
+}
+@media screen and (min-width:960px) {
+	#index_right{
+		width: 720px;
+		margin-left: 240px;
+	}
 }
 @media screen and (min-width:600px) and (max-width:960px){
 	#index_left{
@@ -214,7 +228,6 @@ body {
 	}
 	#index_right{
 		width: 100%;
-		padding: 0;
 	}
 	#index_right .index_r{
 		width: 95%;
@@ -233,7 +246,6 @@ body {
 	}
 	#index_right{
 		width: 100%;
-		padding: 0;
 	}
 	#index_right .index_r{
 		width: 95%;
@@ -277,6 +289,9 @@ body {
 	.player .play-pause{
 		font-size:2rem !important;
 	}
+	.price, .rating {
+		float: none !important;
+	}
 }
 /*手机导航*/
 .sp_header {
@@ -286,6 +301,8 @@ body {
 	position: fixed;
 	z-index: 10;
 	width: 100%;
+	top: 0;
+	left: 0;
 }
 .sp_logo {
 	padding: 10px;
@@ -339,7 +356,7 @@ body {
 	z-index: 9;
 	background: #eee;
 	width: 100%;
-	height: calc(100% - 104px);
+	height: calc(100% - 320px);
 	font-size: 14px;
 	line-height: 40px;
 	top: -100%;
@@ -403,7 +420,8 @@ body {
 }
 .sjj_nav ul li a {
 	color: #666;
-	width: 80%
+	width: 100%;
+	display: block;
 }
 .sjj_nav ul li ul li a {
 	color: #999;
@@ -426,33 +444,169 @@ body {
 
 }
 .about-img {
-	width: 600px;
-	padding: 17px;
+	width: 100%;
+	padding: 17px 0;
 }
 .main-title {
 	font-weight: 400;
 	letter-spacing: .08em;
 	padding-bottom: 17px;
 	color: #242628;
+	text-align: center;
 }
 .sub-title {
 	font-weight: 400;
 	letter-spacing: .08em;
 	padding-top: 17px;
 	color: #2f2f2f;
+	text-align: center;
 }
 .content-title {
 	font-weight: 400;
 	letter-spacing: .08em;
-	color: #808080;
-	font-size: 1.12em;
+	color: #242628;
+	font-size: 1.9em;
+	text-align: center;
 }
+.sub-content-title {
+	font-weight: 400;
+	letter-spacing: .08em;
+	color: #242628;
+	font-size: 1.2em;
+	text-align: left;
+	padding-top: 17px; 
+}
+#brand .benefit {
+	padding: 15px 0 0;
+	margin: 0 auto;
+	text-align: left;
+	line-height: 1.75em;
+	font-size: 1.5em;
+	color: #242628;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
 .content {
-	width: 318px;
-	padding: 17px;
+	width: 100%;
+	padding: 15px 0;
 	margin: 0 auto;
 	text-align: left;
 	line-height: 1.75em;
 	font-size: 15px;
 	color: rgba(17, 17, 17, .6);
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+#brand, #home, #about, #contact, #shop {
+	margin: 0 auto;
+}
+
+#brand img, #about img, #contact img {
+	width: 100%;
+	height: 100%;
+	margin-top: 40px;
+}
+.lang {
+	padding: 2px 8px;
+	border: 1px solid #8d8d8d;
+	border-radius: 8px;
+	outline: none;
+	font-size: 14px;
+	width: 46px;
+	height: 26px;
+	background: transparent;
+}
+.logo, .sp_logo {
+	position: relative;
+}
+
+#index_left .lang {
+	position: absolute;
+	left: 65px;
+	top: 15px;
+	cursor: pointer;
+}
+.sp_logo .lang {
+	position: absolute;
+	left: 80px;
+	top: 20px;
+}
+#about .benefit {
+	padding: 15px 0 0;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 1.75em;
+	font-size: 1.1em;
+	color: rgba(17, 17, 17, .6);
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+#about .feature {
+	width: 45%;
+	float: left;
+}
+#about .feature-2 {
+	margin-left: 5%;
+}
+#contact .content {
+	padding: 10px 0 0;
+}
+#map {
+	height: 250px;
+	margin: 20px auto;
+}
+
+.list {
+	margin: 20px 0;
+}
+.product-detail {
+	margin: 20px 0;
+}
+.product-detail img {
+	width: 50%;
+	float: left;
+}
+.product-detail .right {
+	float: right;
+	width: 40%;
+	margin: auto 0;
+}
+
+.product {
+	display: inline-block;
+	width: 31%;
+	margin-left: 2%;
+	text-align: center;
+}
+.product-1 {
+	margin-left: 0;
+}
+
+.product img {
+	width: 100%;
+	height: 100%;
+}
+
+.product .name, .product-detail .name {
+	margin-top: 6px;
+	font-weight: 500;
+}
+.product .benefit, .product-detail .benefit {
+	color: rgba(17, 17, 17, .6);
+	font-size: 12px;
+}
+.bottom {
+	margin-top: 10px;
+}
+.rating {
+	float: left;
+}
+.price {
+	float: right;
+}
+
+div#product_1, div#product_2, div#product_3 {
+	display: none;
 }

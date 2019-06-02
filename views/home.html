@@ -1,0 +1,51 @@
+<div class="index_r" id="home">
+    <div class="container">
+        <video id="my-player"
+            class="video-js"
+            controls
+            preload="auto"
+            data-setup='{}'
+        >
+            <source src="/skin/images/homepage.mp4" type="video/mp4">
+            <source src="/skin/images/homepage.webm" type="video/webm">
+        </video>
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="/skin/images/cbd_banner_2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/skin/images/cbd_banner.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="four_img">
+        <a href="#shop"><img src="/skin/images/star_products.jpg" alt=""></a>
+        <a href="#home"><img src="/skin/images/hem_plus.jpg" alt=""></a>
+        <a href="#cbd"><img src="/skin/images/cbd.jpg" alt=""></a>
+        <a><img src="/skin/images/join_us.jpg" alt=""></a>
+    </div>
+    <div class="three_img">
+        <p>FIND US ON SOCIAL MEDIA</p>
+        <a><img src="/skin/images/hem_1.jpg" alt=""></a>
+        <a><img src="/skin/images/hem_2.jpg" alt=""></a>
+        <a><img src="/skin/images/hem_3.jpg" alt=""></a>
+
+        <div class="clear"></div>
+    </div>
+    
+    <div class="footer">We only sell our CBD products online. Our THC products can only be purchased from a state licensed retailer. </div>
+</div>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30,
+        effect: 'fade',
+        autoplay: 2500
+    });
+</script>
