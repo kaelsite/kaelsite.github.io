@@ -606,7 +606,3 @@ body {
 .price {
 	float: right;
 }
-
-div#product_1, div#product_2, div#product_3 {
-	display: none;
-}
