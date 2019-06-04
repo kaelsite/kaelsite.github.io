@@ -3,7 +3,7 @@ window.LANG_EN = {
     nav: {
         home: 'HOME',
         brand: 'BRAND STORY',
-        shop: 'SHOP ONLINE',
+        shop: 'SHOP',
         about: 'ABOUT CBD',
         contact: 'CONTACT US',
         product_1: 'The Eye Concentrate',
