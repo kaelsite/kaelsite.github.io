@@ -53,6 +53,18 @@ window.LANG_EN = {
             product_info_detail: 'Organic Hemp CBD Extract\nIntensive moisturizers generates cell regeneration\nThe essence of Mother Nature\nMoisturizing and hydrating cream with deep nutrition',
             use_info: 'Direction',
             use_info_detail: 'This product can be used after the concentrate or alone. It can be used to further nourish the skin with the concentrate. It can enhance sleep repair effect in the evening，also make the makeup more docile during the day. Recommend use once in the morning and evening.'
+        },
+        product_4: {
+            name: 'The moisturizing cream',
+            price: '$196',
+            feature: '50ml/1.7 FL.OZ',
+            benefit: 'Absolute Rose 80',
+            rating: 5,
+            pic: '面霜.jpg',
+            product_info: 'Introduction',
+            product_info_detail: 'Organic Hemp CBD Extract\nIntensive moisturizers generates cell regeneration\nThe essence of Mother Nature\nMoisturizing and hydrating cream with deep nutrition',
+            use_info: 'Direction',
+            use_info_detail: 'This product can be used after the concentrate or alone. It can be used to further nourish the skin with the concentrate. It can enhance sleep repair effect in the evening，also make the makeup more docile during the day. Recommend use once in the morning and evening.'
         }
     },
     about_cbd: {
