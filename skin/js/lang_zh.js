@@ -3,67 +3,70 @@ window.LANG_ZH = {
     nav: {
         home: 'HOME',
         brand: '品牌故事',
-        shop: 'SHOP',
+        shop: '在线商城',
         about: '关于 CBD',
         contact: '联系我们',
-        product_1: 'PRODUCT A',
-        product_2: 'PRODUCT B',
-        product_3: 'PRODUCT C'
+        product_1: '大麻赋活眼部精华乳',
+        product_2: '大麻赋活精华液',
+        product_3: '大麻赋活修护面霜'
     },
     brand_story: {
-        benefit: '我们的故事',
-        content_1: 'Hemplus，来自美国的CBD护肤先驱，属Hempup naturals 旗下品牌，诞生于美国科罗拉多州，美国上市高端美护CBD品牌，Hempup naturals致力于顶级天然有机护肤品研发，秉承顺势疗法的自然哲学探索大自然的奥义提供最自然精纯的护肤产品.坚持Nature is the most dominant ruler of all.解密珍稀物种精华中富蕴其中的奇异能量，唤醒肌肤生机.汲取天然生物精萃与现代科技融合打造亲肤、安全、长效、自愈的天然美肌产品.',
-        content_2: '所有原料以及制成品都经过严格品质检控筛选，产品通过欧盟CE欧盟ROHS有效认证以及美国FDA（U.S. Food and Drug Administration）认证.'
+        benefit: '品牌故事',
+        content_1: 'Hemplus，来自美国的 CBD 护肤先驱，属 Hempup naturals 旗下品牌，诞生于美国科罗拉多州，美国上市高端美护 CBD 品牌。',
+        content_2: 'Hempup naturals 致力于顶级天然有机护肤品研发，秉承顺势疗法的自然哲学探索大自然的奥义提供最自然精纯的护肤产品。坚持 Nature is the most dominant ruler of all 的理念，解密珍稀物种精华中富蕴其中的奇异能量，唤醒肌肤生机，汲取天然生物精萃与现代科技融合打造亲肤、安全、长效、自愈的天然美肌产品。',
+        content_3: '所有原料以及制成品都经过严格品质检控筛选，产品通过欧盟 CE 欧盟 ROHS 有效认证以及美国 FDA（U.S. Food and Drug Administration）认证。'
     },
     shop: {
         title: '我们的产品',
         product_1: {
             name: '大麻赋活眼部精华乳',
             price: '￥1580',
-            feature: '150ml',
+            feature: '净含量：30ml',
             benefit: 'Absolute Rose 80',
             rating: 5,
-            pic: 'hem_1.jpg',
+            pic: '眼霜.jpg',
             product_info: '产品功效说明非成分表',
-            product_info_detail: '产品功效说明非成分表产品功效说明非成分表产品功效说明非成分表产品功效说明非成分表',
+            product_info_detail: '本品蕴含大麻花叶提取物以及珍贵鲟鱼子酱提取物，针对眼部设计，改善眼周干燥，减轻眼部细纹，细滑眼周肌肤，紧致眼部轮廓。',
             use_info: '使用说明',
-            use_info_detail: '使用说明使用说明使用说明使用说明使用说明'
+            use_info_detail: '高浓度眼部精华，使用量为常规眼霜的三分之一，亦可按摩吸收后重复涂抹。本品可与面部精华1:1调和使用于脸部肌肤。早晚一次。'
         },
         product_2: {
-            name: '大麻赋活眼部精华乳',
-            price: '￥1580',
-            feature: '150ml',
+            name: '大麻赋活精华液',
+            price: '￥2080',
+            feature: '净含量：50ml',
             benefit: 'Absolute Rose 80',
             rating: 5,
-            pic: 'hem_1.jpg',
+            pic: '精华.jpg',
             product_info: '产品功效说明非成分表',
-            product_info_detail: '产品功效说明非成分表产品功效说明非成分表产品功效说明非成分表产品功效说明非成分表',
+            product_info_detail: '本品蕴含大麻花叶提取物以及珍贵鲟鱼子酱提取物，修护肌肤，提拉紧致、丰盈柔嫩、水润亮泽。',
             use_info: '使用说明',
-            use_info_detail: '使用说明使用说明使用说明使用说明使用说明'
+            use_info_detail: '本品可以单独使用也可以组合眼部精华调和使用作用于脸部肌肤，调和比例1:1，早晚一次。'
         },
         product_3: {
-            name: '大麻赋活眼部精华乳',
-            price: '￥1580',
-            feature: '150ml',
+            name: '大麻赋活修护面霜',
+            price: '￥1350',
+            feature: '净含量：50ml',
             benefit: 'Absolute Rose 80',
             rating: 5,
-            pic: 'hem_1.jpg',
+            pic: '面霜.jpg',
             product_info: '产品功效说明非成分表',
-            product_info_detail: '产品功效说明非成分表产品功效说明非成分表产品功效说明非成分表产品功效说明非成分表',
+            product_info_detail: '本品蕴含大麻花叶提取物，修护肌肤，改善细纹、提亮肤色，增添肌肤弹性，打造肌肤自然水润光泽。',
             use_info: '使用说明',
-            use_info_detail: '使用说明使用说明使用说明使用说明使用说明'
+            use_info_detail: '本品可在面部精华后使用也可单独使用，搭配面部精华可使营养成分有效发挥。夜间使用可使肌肤在睡眠状态得到滋养，日间使用可使后续上妆更服帖紧致。早晚一次。'
         }
     },
     about_cbd: {
+        title: '关于 CBD',
         benefit: '现在在CBD获奖的MONDO公式',
         info_title: 'WHAT IS CBD?',
         info: '我们的全光谱CBD粉末由所有有机种植的大麻精制而成，并且与我们原始的MONDO配方和茶氨酸中您熟知和喜爱的相同非转基因有机成分巧妙地混合。 MONDO CBD含有150毫克中央商务区，不含人工色素或成分，不含糖和麸质，100％素食主义者友好！',
-        feature_1: 'MONDO在100％有机工业大麻的所有产品中使用全植物大麻油。 这种油含有天然存在的大麻素，包括专业提取的CBD，以保持植物原始植物大麻素和萜烯的完整性。 我们的CBD是工业大麻的天然成分。',
-        feature_2: '人们使用茶氨酸治疗焦虑和高血压，预防阿尔茨海默病，以及使癌症药物更有效。'
+        feature_1: '大麻属植物与人类的关系比宇宙中已知的任何其他植物都要更多更密切。人体不仅能自身合成内源性大麻素，并且本身就具备两种大麻素受体。内源性大麻素系统是一种与我们体内的大麻素受体相互作用的系统，其产生的内源性大麻素与大麻的主要成分THC有着极为相似的三维结构，作用于神经系统的保护工作，能够决定神经元的存活与否，而CBD可以直接与我们的身体内的内源性大麻素系统相互作用。已鉴定出两种主要受体的类型：CB1和CB2，这两种受体是地球上每种哺乳动物中最普遍和最重要的细胞受体，大麻素受体激动剂通过作用于Gi/o蛋白促进激活细胞外信号调节激酶（ERK）。ERK能够调节转录、翻译、突触囊泡融合和细胞骨架动力学。研究发现，纹状体和海马区CB1受体的兴奋将激活ERK并导致其下游转录因子的磷酸化，这些信号通路的激活能够对细胞产生保护作用。细胞的机体抗氧化能力增强并抑制人体内因与外界的持续接触而产生的自由基，延缓身体退化速度，防止肌肤衰老，CBD强大的特性为细胞工程学与医学领域的发展开辟了新道路，实现了人类在健康领域的一次革命性的创举。',
+        feature_2: 'Hemp提取的油脂十分特别，因为它同时含有两种人体必需且自身无法合成的脂肪酸：α - 亚麻油酸 (Omega-3fatty acid) 及亚油酸 (Omega-6 fattyacid) 而且含量非常高。 尤其是Omega-3 脂肪酸数量甚至可以达到鱼油的数倍，除了优质的脂肪酸之外，Hemp油还含有非常丰富的蛋白质种类，包括所有20种已知的氨基酸，以及纤维质、矿物质和维生素B群，能提供最有效的抗衰老、抗氧化以及自身免疫功效，配合其他有机纯净化合物，为肌肤提供最天然的护理，增加体细胞的携氧量，从而让我们的肌肤、头发和眼睛焕发光彩。Hemp油丰富多样的营养结构造就了它在皮肤护理等方面的全面性以及待开发的无限潜能。'
     },
     contact_us: {
         title: '联系我们',
-        email: '邮箱：xxxx@qq.com',
-        address: '地址：华盛顿XXXXXX'
+        email: 'Email: hempupnaturals@gmail.com',
+        company: 'Company: 汉普自然生物科技（美国）有限公司',
+        address: 'Address: 美国科罗拉多州丹佛市东11大街775号'
     }
 }
