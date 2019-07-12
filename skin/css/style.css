@@ -606,3 +606,7 @@ body {
 .price {
 	float: right;
 }
+
+.info img {
+	width: 100%;
+}
