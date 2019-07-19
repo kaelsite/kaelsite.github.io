@@ -20,7 +20,7 @@ window.LANG_ZH = {
         title: '我们的产品',
         product_1: {
             name: '大麻赋活眼部精华乳',
-            price: '￥1580',
+            price: '￥1280',
             feature: '净含量：30ml',
             benefit: 'Absolute Rose 80',
             rating: 5,
@@ -44,7 +44,7 @@ window.LANG_ZH = {
         },
         product_3: {
             name: '大麻赋活修护面霜',
-            price: '￥1350',
+            price: '￥980',
             feature: '净含量：50ml',
             benefit: 'Absolute Rose 80',
             rating: 5,
