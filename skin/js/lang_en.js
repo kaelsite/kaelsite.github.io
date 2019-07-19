@@ -32,7 +32,7 @@ window.LANG_EN = {
         },
         product_2: {
             name: 'The Concentrate',
-            price: '$301',
+            price: '$309',
             feature: '50ml/1.7 FL.OZ',
             benefit: 'Absolute Rose 80',
             rating: 5,
@@ -44,7 +44,7 @@ window.LANG_EN = {
         },
         product_3: {
             name: 'The moisturizing cream',
-            price: '$196',
+            price: '$149',
             feature: '50ml/1.7 FL.OZ',
             benefit: 'Absolute Rose 80',
             rating: 5,
@@ -56,7 +56,7 @@ window.LANG_EN = {
         },
         product_4: {
             name: 'The moisturizing cream',
-            price: '$196',
+            price: '$149',
             feature: '50ml/1.7 FL.OZ',
             benefit: 'Absolute Rose 80',
             rating: 5,
